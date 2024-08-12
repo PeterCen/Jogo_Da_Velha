@@ -3,7 +3,7 @@
 #include <string.h>
 
 #define MAX_TENTATIVAS 6
-#define MAX_PALAVRA 20
+#define MAX_PALAVRA 30
 
 int main() {
     char palavra[MAX_PALAVRA];
