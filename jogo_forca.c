@@ -16,7 +16,7 @@ int main() {
     printf("Digite a palavra a ser adivinhada: ");
     scanf("%s", palavra);
 
-    system("clear"); // Limpa a tela (para sistemas Unix-like) - utilize "cls" para sistemas Windows
+    system("cls"); // Limpa a tela (para sistemas Unix-like) - utilize "cls" para sistemas Windows
 
     tamanho = strlen(palavra);
 
@@ -50,7 +50,7 @@ int main() {
         printf("\n");
     }
     
-    system("clear"); // Limpa a tela (para sistemas Unix-like) - utilize "cls" para sistemas Windows
+    system("cls"); // Limpa a tela (para sistemas Unix-like) - utilize "cls" para sistemas Windows
 
     if (letrasEncontradas == tamanho) {
         printf("Parabéns! Você acertou a palavra: %s\n", palavra);
